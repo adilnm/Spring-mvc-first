@@ -15,4 +15,9 @@ public class HelloWordController {
 	public String showDetail() {
 		return "showDetails";
 	}
+
+	@GetMapping("/register")
+	public String register() {
+		return "register";
+	}
 }
